@@ -22,7 +22,6 @@ from platformio.managers.platform import PlatformBase
 
 IS_WINDOWS = sys.platform.startswith("win")
 
-
 class MflPlatform(PlatformBase):
 
     def configure_default_packages(self, variables, targets):
