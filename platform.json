@@ -39,7 +39,7 @@
       "type": "framework",
       "optional": true,
       "owner": "bmourit",
-      "version": "https://github.com/bmourit/ArduinoCore-MFL.git"
+      "version": "https://github.com/bmourit/ArduinoCore-MFL/tree/dev"
     },
     "tool-sreccat": {
       "owner": "platformio",
