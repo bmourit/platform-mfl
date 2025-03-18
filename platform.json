@@ -1,6 +1,6 @@
 {
   "name": "mfl",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "title": "MFL for GD32F30x and GD32F10x",
   "description": "MFL Library board support for GD32F30x and GD32F10x",
   "homepage": "http://www.gd32mcu.com/en/product",
