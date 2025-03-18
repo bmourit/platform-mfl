@@ -1,8 +1,8 @@
 {
   "name": "mfl",
-  "version": "1.0.0",
-  "title": "MFL for GD32F303RE",
-  "description": "MFL Library board support for GD32F303RE",
+  "version": "1.0.1",
+  "title": "MFL for GD32F30x and GD32F10x",
+  "description": "MFL Library board support for GD32F30x and GD32F10x",
   "homepage": "http://www.gd32mcu.com/en/product",
   "license": "Apache-2.0",
   "keywords": [

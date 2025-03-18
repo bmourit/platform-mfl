@@ -1,0 +1,50 @@
+{
+  "build": {
+    "core": "gd32",
+    "cpu": "cortex-m3",
+    "offset": "0x7000",
+    "extra_flags": "-DGD32F103RC -DGD32F103RCT6 -DARDUINO_ARCH_MFL",
+    "f_cpu": "108000000L",
+    "mcu": "gd32f103rct6",
+    "mfl_series": "GD32F103RC",
+    "series": "GD32F103RC",
+    "product_line": "GD32F10X_HD",
+    "hwids": [
+      [
+        "0x1EAF",
+        "0x0003"
+      ],
+      [
+        "0x1EAF",
+        "0x0004"
+      ]
+    ],
+    "mfl_sub_series": "HD",
+    "variant": "MFL_CREALITY_422_F103RC"
+  },
+  "debug": {
+    "svd_path": "GD32F10x_HD.svd",
+    "openocd_extra_pre_target_args": [
+      "-c",
+      "set CPUTAPID 0x2BA01477"
+    ]
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "name": "Creality 4.2.2 GD32F103RCT6 (48k RAM, 256k Flash)",
+  "upload": {
+    "disable_flushing": false,
+    "maximum_ram_size": 49152,
+    "maximum_size": 262144,
+    "protocol": "",
+    "protocols": [
+      ""
+    ],
+    "require_upload_port": true,
+    "use_1200bps_touch": false,
+    "wait_for_upload_port": false
+  },
+  "url": "https://www.gigadevice.com/microcontroller/gd32f103rct6",
+  "vendor": "GigaDevice"
+}
