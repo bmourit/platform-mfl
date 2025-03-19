@@ -2,7 +2,7 @@
 
 ## Description
 
-[PlatformIO](https://platformio.org) platform implementation for the GD32F303RE mcu using MFL. Work in progress.
+[PlatformIO](https://platformio.org) platform implementation for the GD32F303RE mcu using MFL.
 
 ## Supported boards
 
