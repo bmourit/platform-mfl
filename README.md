@@ -2,15 +2,17 @@
 
 ## Description
 
-[PlatformIO](https://platformio.org) platform implementation for the GD32F303RE mcu using MFL.
+[PlatformIO](https://platformio.org) platform implementation for the GD32F103Rx and GD32F303Rx MCUs using MFL.
 
 ## Supported boards
 
 See [boards](https://github.com/bmourit/platform-mfl/tree/main/boards) folder.
 
 * GD32F303RE (Cortex-M4)
+* GD32F103RE (Cortex-M3)
+* GD32F103RC (Cortex-M3)
 
-Currently only one MCU and one board is supported. Other MCUs and boards may be added in the future if there is interest. The main purpose of this platform is to support building Marlin Firmware for this chip.
+Currently only three MCU versions and three boards are supported. Other MCUs and boards may be added in the future if there is interest. The main purpose of this platform is to support building Marlin Firmware for this chip.
 
 ## How to use
 
