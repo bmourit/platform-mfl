@@ -1,6 +1,6 @@
 {
   "name": "mfl",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "title": "MFL for GD32F30x and GD32F10x",
   "description": "MFL Library board support for GD32F30x and GD32F10x",
   "homepage": "http://www.gd32mcu.com/en/product",
@@ -39,7 +39,7 @@
       "type": "framework",
       "optional": true,
       "owner": "bmourit",
-      "version": "https://github.com/bmourit/ArduinoCore-MFL.git"
+      "version": "https://github.com/bmourit/ArduinoCore-MFL.git#V1.0.4"
     },
     "tool-sreccat": {
       "owner": "platformio",
